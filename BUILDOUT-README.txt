@@ -8,16 +8,19 @@ $ mkdir projectname
 $ cd  projectname
 $ git init
 
-Add project to gitosis. Then add remote to project
-$ git remote add buildout git@dev.starzel.de:<projectname>.git
+Add project to gitosis (by editing and pushing gitosis.conf) 
+
+Then add remotes to project and get the empty project
+$ git remote add origin git@dev.starzel.de:<projectname>.git
+$ git pull origin master
 
 Add buildout to remotes:
-$ git remote add buildout git@dev.starzel.de:buildout.git
+$ git remote add buildoutskel git@dev.starzel.de:buildout.git
 
 Create branch buildout and checkout remote buildout master into the active local branch (buildout)
 $ git b buildout 
 $ git co buildout
-$ git pull buildout master
+$ git pull buildoutskel master
 
 switch back to master and merge branch buildout into master
 $ git co master
