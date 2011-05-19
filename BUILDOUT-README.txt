@@ -1,4 +1,6 @@
-This is a skeleton for a buildout used by starzel
+This is a skeleton for a buildout used by starzel.
+Customize the files cfgs/base.cfg and versions.cfg according to needs
+
 
 Creating a project
 ==================
