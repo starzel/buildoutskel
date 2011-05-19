@@ -37,3 +37,8 @@ Go an with your work and push your work to origin. Don't ever push to remote bui
 
 Updating a project
 ==================
+Switch to branch buildout, pull changes and merge with your project-repo
+$ git co buildout
+$ git pull buildoutskel master
+$ git co master
+$ git merge buildout
