@@ -1,0 +1,1 @@
+This is a skeleton for a buildout used by starzel
