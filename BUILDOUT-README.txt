@@ -1,5 +1,17 @@
-This is a skeleton for a buildout used by starzel.
-Customize the files cfgs/base.cfg and versions.cfg according to needs
+This is a skeleton for a buildout used by Starzel.de
+
+Usage
+=====
+
+Customize the files site.cfg and versions.cfg according to site
+
+
+Documentation
+=============
+
+This buildout can be used for most common Plone-Sites.
+./bin/buildout -c bo-deploy.cfg sets up a zeo-setup with one zeo-client. 
+./bin/buildout [-c buildout.cfg] sets up a development-buildout with some usefull tools 
 
 
 Creating a project
@@ -32,7 +44,6 @@ Push changes into project-repo
 $ git push origin
 
 Go an with your work and push your work to origin. Don't ever push to remote buildout
-
 
 
 Updating a project
