@@ -3,15 +3,18 @@ This is a skeleton for a buildout used by Starzel.de
 Usage
 =====
 
-Customize the files site.cfg and versions.cfg according to site
+Customize the file site.cfg for site specific configuration.
+Add Version pinnnings as required to floating_versions.cfg and pinned_versions.cfg
+If required, override default configurations in custom.cfg
 
 
 Documentation
 =============
 
 This buildout can be used for most common Plone-Sites.
-./bin/buildout -c bo-deploy.cfg sets up a zeo-setup with one zeo-client. 
-./bin/buildout -c bo-develop.cfg sets up a development-buildout with some useful tools 
+create a buildout.cfg link that links to
+- bo-deploy.cfg for a zeo-setup with one zeo-client
+- bo-develop.cfg for a development-buildout with some useful tools
 
 
 Creating a new project
