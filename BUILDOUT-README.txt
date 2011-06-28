@@ -11,7 +11,7 @@ Documentation
 
 This buildout can be used for most common Plone-Sites.
 ./bin/buildout -c bo-deploy.cfg sets up a zeo-setup with one zeo-client. 
-./bin/buildout [-c buildout.cfg] sets up a development-buildout with some useful tools 
+./bin/buildout -c bo-develop.cfg sets up a development-buildout with some useful tools 
 
 
 Creating a new project
