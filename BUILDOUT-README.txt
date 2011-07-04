@@ -4,7 +4,7 @@ Usage
 =====
 
 Customize the file site.cfg for site specific configuration.
-Add Version pinnnings as required to floating_versions.cfg and pinned_versions.cfg
+Add version-pinnnings as required to floating_versions.cfg and pinned_versions.cfg
 If required, override default configurations in custom.cfg
 
 
@@ -12,7 +12,7 @@ Documentation
 =============
 
 This buildout can be used for most common Plone-Sites.
-create a buildout.cfg link that links to
+Create a buildout.cfg link that links to
 - bo-deploy.cfg for a zeo-setup with one zeo-client
 - bo-develop.cfg for a development-buildout with some useful tools
 
