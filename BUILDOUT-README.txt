@@ -80,7 +80,7 @@ $ git remote add buildoutskel git@dev.starzel.de:buildout.git
 Create EMPTY branch 'buildout', clean it from all stuff of the branch master 
 $ git symbolic-ref HEAD refs/heads/buildout
 $ rm .git/index
-$ git clean -fdx
+$ git clean -fd
 
 Get remote buildoutskel master into the active local branch (buildout)
 $ git pull buildoutskel master
