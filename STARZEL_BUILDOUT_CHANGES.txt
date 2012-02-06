@@ -1,0 +1,25 @@
+1.0
+---
+* Initial release
+
+1.1
+---
+* Updating to latest blobstorage
+  MIGRATION NECESSARY:
+  In your backups directories are the directories
+  * backups
+  * snapshotbackups
+  These currently contain the backups. This changes now!
+  They are now two more subdirectories:
+  * backups/filestorage
+  * backups/blobstorage
+  * snapshotbackups/filestorage
+  * snapshotbackups/blobstorage
+  The current backups must be moved to the filestorage directory.
+  Be advised that it is undefined if you try to restore a date
+  before you used the backup script with blobs!
+  You really absolutely should try to run a full backup after you
+  updated your code. Do this by editing the backup script
+  there is parameter full = False. Change this to True, run the script,
+  then change it back.
+  ALSO, the script name has been changed. Update your cron jobs accordingly!
